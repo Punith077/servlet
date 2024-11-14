@@ -1,0 +1,9 @@
+package WebServlet.controller;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+@WebServlet("/update")
+public class Modify extends HttpServlet{
+	
+}

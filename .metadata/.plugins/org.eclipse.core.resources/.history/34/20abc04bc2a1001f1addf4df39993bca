@@ -1,0 +1,28 @@
+package WebServlet.controller;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/update")
+public class Modify extends HttpServlet{
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		String s1=req.getParameter("sname");
+		String s2=req.getParameter("smob");
+		String s3=req.getParameter("semail");
+		String s4=req.getParameter("spwd");
+		String s5=req.getParameter("gender");
+		String s7=req.getParameter("country");
+		
+		//we can use type=hidden in html where it will not show email to end user
+		//we can use readonly=readonly or disabled=disabled
+		//System.out.println(s1+" "+s2+" "+s3+" "+s4+" "+s5+" "+s7);
+		
+		
+	}
+}

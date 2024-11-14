@@ -1,0 +1,7 @@
+INDEX VERSION 1.134
+C:\Users\Lenovo\Desktop\ServletProject\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\190195291.index
+\DemoMavProj\src\main\resources
+C:\Users\Lenovo\Desktop\ServletProject\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2840814728.index
+\WebServlet\src\main\resources
+C:\Users\Lenovo\Desktop\ServletProject\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\443967162.index
+\MavernServlet\src\main\java
